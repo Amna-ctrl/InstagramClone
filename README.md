@@ -14,11 +14,11 @@ The **InstagramClone** is a frontend Android application developed as a universi
 - **Language**: Java
 - **UI Framework**: XML with AndroidX (RelativeLayout and LinearLayout)
 - **IDE**: Android Studio
-- **Target Platform**: Android (API level [specify minimum API level, e.g., 21])
+- **Target Platform**: Android (API 21 (Android 5.0 Lollipop))
 
 ## Prerequisites
 To run this project, ensure you have the following installed:
-- **Android Studio** (version [specify version, e.g., 4.0 or higher])
+- **Android Studio** (4.0 or higher)
 - **Java Development Kit (JDK)** (version 8 or higher)
 - **Android SDK** with support for the target API level
 - An Android emulator or physical device for testing
@@ -26,7 +26,7 @@ To run this project, ensure you have the following installed:
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[your-username]/[your-repo-name].git
+   git clone https://github.com/Amna-ctrl/InstagramClone.git
 2. **Open in Android Studio**:
    Launch Android Studio and select Open an existing project.
    Navigate to the cloned repository folder and select it.
@@ -35,27 +35,6 @@ To run this project, ensure you have the following installed:
 4. **Run the App**:
    Connect an Android device or start an emulator.
    Click Run in Android Studio to build and deploy the app.
-
-## Project Structure
-InstagramClone/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/instagramclone/
-│   │   │   │   ├── MainActivity.java        # Main activity to host fragments
-│   │   │   │   ├── fragments/
-│   │   │   │   │   ├── HomeFragment.java    # Fragment for home screen
-│   │   │   │   │   └── StoriesFragment.java # Fragment for Stories section
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_main.xml        # Main activity layout
-│   │   │   │   │   ├── fragment_home.xml        # Home screen layout (Vertical ScrollView)
-│   │   │   │   │   └── fragment_stories.xml     # Stories layout (Horizontal ScrollView)
-│   │   │   │   ├── values/
-│   │   │   │   │   └── strings.xml             # String resources
-│   └── build.gradle                            # App-level Gradle configuration
-├── build.gradle                                # Project-level Gradle configuration
-└── README.md                                   # Project documentation
 
 ## Usage
 1. Launch the app on an Android device or emulator.
